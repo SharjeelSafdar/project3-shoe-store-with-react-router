@@ -9,6 +9,7 @@ The web app has been deployed to Surge, and can be accessed [here](http://shoe-s
 ### Features
 
 The following are some of the features of the app:
+- Displays some of the products on the home page in a randomized manner
 - Displays shoes in three categories: men, women and kids
 - Dynamically creating pages for men, women and kids categories
 - Dynamically creating page for displaying details of a single product

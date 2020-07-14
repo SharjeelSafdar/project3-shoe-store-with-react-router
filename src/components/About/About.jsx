@@ -29,6 +29,7 @@ const About = () => {
             </Typography>
             <Typography variant="h5" style={{paddingTop: "1em"}}>Features</Typography>
             <Typography variant="subtitle1">
+                    <li>Displays some of the products on the home page in a randomized manner</li>
                     <li>Displays shoes in three categories: men, women and kids</li>
                     <li>Dynamically creating pages for men, women and kids categories</li>
                     <li>Dynamically creating page for displaying details of a single product</li>
