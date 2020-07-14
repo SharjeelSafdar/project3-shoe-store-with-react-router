@@ -5,11 +5,16 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 import styles from './ProductDetails.module.css'
+import { PageNotFound } from '../components';
 
 const ProductDetails = ({ shoesData, category }) => {
     const [ selectedImage, setSelectedImage ] = useState(0);
     const { productId } = useParams();
     const shoe = shoesData[category][productId];
+    if (!shoe) {
+        return <PageNotFound />
+    }
+
     return (
         <React.Fragment>
             <Grid container justify="flex-start"><Grid item xs={12} md={8} lg={6}>
