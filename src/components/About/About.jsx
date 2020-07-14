@@ -31,8 +31,9 @@ const About = () => {
             <Typography variant="subtitle1">
                     <li>Displays some of the products on the home page in a randomized manner</li>
                     <li>Displays shoes in three categories: men, women and kids</li>
-                    <li>Dynamically creating pages for men, women and kids categories</li>
-                    <li>Dynamically creating page for displaying details of a single product</li>
+                    <li>Dynamically creates pages for men, women and kids categories</li>
+                    <li>Dynamically creates page for displaying details of a single product</li>
+                    <li>Renders PageNotFound component if the URL or product is not found.</li>
             </Typography>
 
             <Typography variant="h5" style={{paddingTop: "1em"}}>Learning Outcomes</Typography>
