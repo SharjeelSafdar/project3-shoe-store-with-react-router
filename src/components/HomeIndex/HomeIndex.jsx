@@ -45,7 +45,7 @@ const HomeIndex = ({ shoesData }) => {
                     </div>
                 </div>
                 <Grid container justify="center" spacing={3} className={styles.section}>
-                    {[0,1,2,3,4,5].map( i => (
+                    {[0,1,2,3].map( i => (
                         <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                             <ShoeCard shoe={shoesData["men"][ids["men"][(randNum+i)%24]]} />
                         </Grid>
@@ -60,7 +60,7 @@ const HomeIndex = ({ shoesData }) => {
                     </div>
                 </div>
                 <Grid container justify="center" spacing={3} className={styles.section}>
-                    {[0,1,2,3,4,5].map( i => (
+                    {[0,1,2,3].map( i => (
                         <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                             <ShoeCard shoe={shoesData["women"][ids["women"][(randNum+i)%24]]} />
                         </Grid>
@@ -75,7 +75,7 @@ const HomeIndex = ({ shoesData }) => {
                     </div>
                 </div>
                 <Grid container justify="center" spacing={3} className={styles.section}>
-                    {[0,1,2,3,4,5].map( i => (
+                    {[0,1,2,3].map( i => (
                         <Grid item xs={12} sm={6} md={4} lg={3} key={i}>
                             <ShoeCard shoe={shoesData["kids"][ids["kids"][(randNum+i)%24]]} />
                         </Grid>
