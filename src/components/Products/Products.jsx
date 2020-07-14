@@ -1,11 +1,10 @@
 import React from 'react';
-import { useParams, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Typography } from '@material-ui/core'
 
 import styles from './Products.module.css'
 
-const Men = () => {
-    const { category } = useParams();
+const Men = ({ category }) => {
     return (
         <div className={styles.container}>
             <div className={styles.fieldset}>

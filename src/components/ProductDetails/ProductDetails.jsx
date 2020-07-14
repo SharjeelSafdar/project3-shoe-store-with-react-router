@@ -6,9 +6,9 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 import styles from './ProductDetails.module.css'
 
-const ProductDetails = ({ shoesData }) => {
+const ProductDetails = ({ shoesData, category }) => {
     const [ selectedImage, setSelectedImage ] = useState(0);
-    const { category, productId } = useParams();
+    const { productId } = useParams();
     const shoe = shoesData[category][productId];
     return (
         <React.Fragment>

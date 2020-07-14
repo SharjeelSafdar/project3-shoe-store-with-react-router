@@ -6,3 +6,4 @@ export { default as ShoeCard } from './ShoeCard/ShoeCard';
 export { default as ProductDetails } from './ProductDetails/ProductDetails';
 export { default as Footer } from './Footer/Footer';
 export { default as About } from './About/About';
+export { default as PageNotFound } from './PageNotFound/PageNotFound';

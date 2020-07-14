@@ -1,12 +1,11 @@
 import React from 'react';
 import { Grid } from '@material-ui/core'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { ShoeCard } from '../components';
 import styles from './ProductsIndex.module.css'
 
-const ProductsIndex = ({ shoesData }) => {
-    const { category } = useParams();
+const ProductsIndex = ({ shoesData, category }) => {
     return (
         <React.Fragment>
             <Grid container justify="center" spacing={3}>
